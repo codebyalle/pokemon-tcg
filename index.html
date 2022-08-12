@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Pokémon</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responssivo.css">
+    <link rel="icon" type= "image/x-icon" href="pokebola.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&family=Outfit&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho"> 
+        <img src="src/imagens/pokebola.png" alt="pokebola" class="pokebola"/> 
+        <h1 class="titulo">POKÉMON TCG</h1>
+    
+    </header>
+    
+    <main class="carrossel">
+
+        <button class="btn-seta btn-voltar" id="btn-voltar"> 
+            <img src="src/imagens/seta.png" alt="setavoltar">
+        </button>
+        
+        <ul class="lista-pokemon">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes"> 
+                    <h2 class="nome"> Pikachu </h2>
+                    <p class="vida"> HP 300 </p>
+                </div>
+                
+                <div class="container-imagem">
+                    <img src="pikachu.png" alt="pikachu" class="imagem-pokemon">
+                </div>
+                
+                <div class="descricao"> 
+                    <h3 class="titulo">Descrição</h3> 
+                    <p class="texto"> Pikachu é um tipo de Pokémon elétrico: os bolsos em suas bochechas,
+                        identificado por discos vermelhos que decoram, são capazes de gerar 
+                        choques elétricos de intensidade variável, chegando até o nível de 
+                        poder de um raio. Eles também o usam para se defender.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes"> 
+                    <h2 class="nome"> Charizard </h2>
+                    <p class="vida"> HP 800 </p>
+                </div>
+                
+                <div class="container-imagem">
+                    <img src="charizard.png" alt="charizard" class="imagem-pokemon">
+                </div>
+                
+                <div class="descricao"> 
+                    <h3 class="titulo">Descrição</h3> 
+                    <p class="texto"> Suas asas podem transportar este Pokémon a uma altitude de 4.600 pés. 
+                        Ele sopra fogo em temperaturas muito altas.</p>
+                </div>
+            </li>
+            
+            <li class="cartao fundo-3">
+                <div class="informacoes"> 
+                    <h2 class="nome"> Mewtwo </h2>
+                    <p class="vida"> HP 1200 </p>
+                </div>
+                
+                <div class="container-imagem">
+                    <img src="mewtwo.png" alt="mewtwo" class="imagem-pokemon">
+                </div>
+                
+                <div class="descricao"> 
+                    <h3 class="titulo">Descrição</h3> 
+                    <p class="texto">  Mewtwo, o Pokémon genético, ele foi clonado geneticamente do Mew,
+                        o poder científico dos humanos não conseguiu dar a ele um coração compassivo.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes"> 
+                    <h2 class="nome"> Trainer Red </h2>
+                    <p class="vida">Suporte</p>
+                </div>
+                
+                <div class="container-imagem">
+                    <img src="trainer-red.webp" alt="trainerred">
+                </div>  
+                
+                <div class="descricao"> 
+                    <h3 class="titulo">Descrição</h3> 
+                    <p class="texto"> É sugerido que Red é um prodígio, pois ele conseguiu derrotar Brock com muito pouca experiência 
+                        e depois realizar feitos incríveis, como capturar Mewtwo e se tornar Campeão de Kanto.</p>
+                </div>
+            </li>
+                
+        </ul>
+    
+    <button class="btn-seta btn-avancar" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="setaavancar">
+    </button>
+
+    </main>   
+    <script src="src/js/index.js"></script>
+</body>
+</html>
